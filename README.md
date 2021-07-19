@@ -44,9 +44,12 @@
    description: retrieve all users (active) per transaction<br/>
 
 **Notes:** <br/>
-1. Please add single header<br/>
+1.  Please add single header<br/>
     - header name: `Authorization`<br/>
     - header value: `j32io33ise4k2qq1`<br/>
 
-2. Execute SQL statement located at (/src/main/resources/db)<br/>
+2.  Execute SQL statement located at `(/src/main/resources/db/)`<br/>
+3.  Please modify the `global` config located at `(/src/main/resources/)` according to your MySQL local configuration
+    - filename: `config.yaml`
+    - location: `/src/main/resources/`
     
