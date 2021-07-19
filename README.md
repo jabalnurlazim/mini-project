@@ -1,16 +1,16 @@
 # mini-project
 
-Endpoints:
+Endpoints:<br/>
 1.url: http://localhost:8080/createUser<br/>
-  request method: POST
-  description: create single user per transaction
-  sample input: 
-    {
-      "username": "jlazim2212",
-      "fullname": "jabalnur Lazim",
-      "birthday": "02-05-1991",
-      "gender": "male"
-    }
+  request method: POST<br/>
+  description: create single user per transaction<br/>
+  sample input: <br/>
+    {<br/>
+      "username": "jlazim2212",<br/>
+      "fullname": "jabalnur Lazim",<br/>
+      "birthday": "02-05-1991",<br/>
+      "gender": "male"<br/>
+    }<br/>
 
 2.url: http://localhost:8080/createUsers
   request method: POST
