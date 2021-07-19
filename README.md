@@ -1,7 +1,7 @@
 # mini-project
 
 Endpoints:
-1.url: http://localhost:8080/createUser
+1.url: http://localhost:8080/createUser<br/>
   request method: POST
   description: create single user per transaction
   sample input: 
