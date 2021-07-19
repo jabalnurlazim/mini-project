@@ -1,4 +1,4 @@
-# mini-project
+# mini-project with Mule 4
 
 **Endpoints:**<br/>
 1.  url: http://localhost:8080/createUser<br/>
