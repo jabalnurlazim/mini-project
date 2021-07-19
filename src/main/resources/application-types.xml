@@ -51,4 +51,18 @@ type: string]]></types:shape>
       </types:output-event>
     </types:processor-declaration>
   </types:enrichment>
+  <types:enrichment select="#a2837e9e-d542-432d-bdc9-a62a0a380c95">
+    <types:processor-declaration>
+      <types:input-event>
+        <types:message>
+          <types:payload type="create_user_json"/>
+        </types:message>
+      </types:input-event>
+    </types:processor-declaration>
+    <types:operation-declaration>
+      <types:inputs>
+        <types:parameter name="value" type="create_user_json"/>
+      </types:inputs>
+    </types:operation-declaration>
+  </types:enrichment>
 </types:mule>
