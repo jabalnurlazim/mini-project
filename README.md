@@ -6,34 +6,35 @@
   description: create single user per transaction<br/>
   sample input: <br/>
    ```json
-   {<br/>
-      "username": "jlazim2212",<br/>
-      "fullname": "jabalnur Lazim",<br/>
-      "birthday": "02-05-1991",<br/>
-      "gender": "male"<br/>
+   {
+      "username": "jlazim2212",
+      "fullname": "jabalnur Lazim",
+      "birthday": "02-05-1991",
+      "gender": "male"
     }
   ```
 2.url: http://localhost:8080/createUsers<br/>
   request method: POST<br/>
   description: create multiple users per transaction<br/>
   sample input: <br/>
-    *{<br/>
-      "users": [<br/>
-        {<br/>
-          "username": "jlazim222",<br/>
-          "fullname": "jabalnur Lazim",<br/>
-          "birthday": "02-05-1991",<br/>
-          "gender": "male"<br/>
-        },<br/>
-        {<br/>
-          "username": "jlazim112",<br/>
-          "fullname": "jabalnur Lazim",<br/>
-          "birthday": "02-05-1992",<br/>
-          "gender": "male"<br/>
-        }<br/>
-      ]<br/>
-    }*<br/>
-
+   ```json
+    {
+      "users": [
+        {
+          "username": "jlazim222",
+          "fullname": "jabalnur Lazim",
+          "birthday": "02-05-1991",
+          "gender": "male"
+        },
+        {
+          "username": "jlazim112",
+          "fullname": "jabalnur Lazim",
+          "birthday": "02-05-1992",
+          "gender": "male"
+        }
+      ]
+    }
+```
 3. url: http://localhost:8080/getUser/jlazim<br/>
    request method: GET<br/>
    description: retrieve single user per transaction<br/>
