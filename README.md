@@ -5,12 +5,12 @@
   request method: POST<br/>
   description: create single user per transaction<br/>
   sample input: <br/>
-    *{<br/>
+    *```{<br/>
       "username": "jlazim2212",<br/>
       "fullname": "jabalnur Lazim",<br/>
       "birthday": "02-05-1991",<br/>
       "gender": "male"<br/>
-    }<br/>*
+    }<br/>*```
 
 2.url: http://localhost:8080/createUsers<br/>
   request method: POST<br/>
